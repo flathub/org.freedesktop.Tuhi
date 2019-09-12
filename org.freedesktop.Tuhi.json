@@ -64,8 +64,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/tuhiproject/tuhi",
-                    "tag": "0.2",
-                    "commit": "c71076ca1d23f939a101cdffd062a4db8ce65ada"
+                    "tag": "0.3",
+                    "commit": "d4dcccf36dca480c424f01573125d4d1251ec30f"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-meson.build-drop-yaml-from-the-required-python-modul.patch"
                 }
             ]
         }
