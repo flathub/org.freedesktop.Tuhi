@@ -64,8 +64,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/tuhiproject/tuhi",
-                    "tag": "0.5",
-                    "commit": "4ce8d011d119718b14ef8a809ad53fc111ae94ce"
+                    "tag": "0.6",
+                    "commit": "e44e982717c46b3a942ae7ec07603940817829e0"
                 }
             ]
         }
