@@ -1,7 +1,7 @@
 {
     "app-id": "org.freedesktop.Tuhi",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "command": "tuhi",
     "finish-args": [
@@ -62,10 +62,13 @@
             "buildsystem": "meson",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://github.com/tuhiproject/tuhi",
-                    "tag": "0.6",
-                    "commit": "e44e982717c46b3a942ae7ec07603940817829e0"
+                    "type": "archive",
+                    "url": "https://github.com/tuhiproject/tuhi/archive/refs/tags/0.6.tar.gz",
+                    "sha256": "d36306f0729f02a88e2fee626136e611b3ae4c7c63e92e86127f7c68cd200c71"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix_appdata.patch"
                 }
             ]
         }
